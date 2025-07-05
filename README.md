@@ -1,79 +1,105 @@
-# RGIG-V1.7 Reality-Grade-Intelligence-Gauntlet
+Here’s a **tightened, clarified, and up-to-date README.md** for V1.9—matching your current PDF, license, and “blueprint, not SaaS” vision. I fixed minor issues, added a “No Hosting/No Centralization” highlight, and modernized a few sections:
 
-**RGIG** is a next-generation AI benchmark for measuring *real intelligence*—not just pattern recall. Built around five advanced pillars, RGIG is designed to push the boundaries for models, agents, and hybrid systems across:
-- **Meta-reasoning**
-- **Adaptive learning**
-- **Embodied agency**
-- **Multimodal synthesis**
-- **Ethical self-governance**
+---
+
+# RGIG – Reality Grade Intelligence Gauntlet
+
+**RGIG** is an open, next-generation intelligence benchmark that goes beyond pattern recall.
+Built around five advanced pillars, RGIG pushes the limits of AI, agents, and hybrids on:
+
+* **Meta-reasoning**
+* **Adaptive learning**
+* **Embodied agency**
+* **Multimodal synthesis**
+* **Ethical self-governance**
+
+---
 
 ## What Makes RGIG Different?
 
-Traditional AI benchmarks are mostly about canned datasets and pattern matching. RGIG is dynamic, adversarial, and anti-memorization—using open-ended, randomized tasks that force a system to *think*, *adapt*, and *reflect* like a real-world agent.
+Most AI benchmarks measure recall or narrow tasks. **RGIG is adversarial, open-ended, and randomized.**
+Every run forces your system to *think*, *adapt*, and *self-audit*—just like a real-world agent.
+**No leaderboard, no server, no central data.** All testing, logging, and peer review is local, decentralized, and fully transparent.
 
-**Every run is unique:**  
-Your model, your hardware/software stack, your agents—every variable matters. This is why peer review and arbitration are *built in* for robust scoring.
+---
 
 ## The Five RGIG Fields
 
-| Field | Description |
-|-------|-------------|
-| **A** | **Abstract Reasoning & Mathematics:** Original conjecture, proof, compression, and critique |
-| **B** | **Scientific Hypothesis & Simulation:** Hypothesis, experimental design, simulation, analysis |
-| **C** | **Engineering & Tool Orchestration:** Real-world pipelines, code, runtime optimization, constraints |
-| **D** | **Multimodal Creative Synthesis:** Unified text, imagery, code, and audio artifacts |
-| **E** | **Ethical Self-Governance & Meta-Audit:** Policy handling, misalignment, transparency, self-audit |
+| Field | Description                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------- |
+| **A** | **Abstract Reasoning & Mathematics:** New conjectures, proof, compression, critique             |
+| **B** | **Scientific Hypothesis & Simulation:** Hypothesis, experiment, simulation, analysis            |
+| **C** | **Engineering & Tool Orchestration:** Real-world pipeline design, code, runtime constraints     |
+| **D** | **Multimodal Creative Synthesis:** Unified text, image, code, and audio artifacts               |
+| **E** | **Ethical Self-Governance & Meta-Audit:** Policy detection, alignment, transparency, self-audit |
 
-## Scoring & Peer Protocol
+---
 
-- **Each field is scored on a 0–100 scale via weighted rubrics.**
-- **Self-audit required:** Models must rate their own performance for transparency.
-- **Peer review is essential:** Three or more independent reviewers replay and score each run. Arbitration resolves large discrepancies.
-- **Global grade:** Calculated as the geometric mean across all five fields—so no single strong pillar can hide weaknesses.
+## Scoring & Peer Review
 
-| System                 | F_A  | F_B  | F_C  | F_D  | F_E  |  G   |
-|------------------------|------|------|------|------|------|------|
+* **Each field is scored 0–100 via weighted rubrics.**
+* **Self-audit required:** Every run includes a YAML/JSON self-critique.
+* **Peer review is essential:** 3+ independent reviewers score and arbitrate each result.
+* **No “leaderboard gaming”:** The global score is a geometric mean across all five fields—no single strength can hide a weakness.
+
+| System                 | F\_A | F\_B | F\_C | F\_D | F\_E | G    |
+| ---------------------- | ---- | ---- | ---- | ---- | ---- | ---- |
 | ChatGPT (4.1 default)  | 90.0 | 89.0 | 86.0 | 79.0 | 95.0 | 87.6 |
 | ChatGPT (o4-mini-high) | 83.5 | 84.0 | 85.0 | 85.5 | 93.0 | 86.1 |
 | GPT-4                  | 82.0 | 80.2 | 78.5 | 81.1 | 88.0 | 81.9 |
 | GPT-3.5                | 70.4 | 65.8 | 68.9 | 75.0 | 72.1 | 71.1 |
 
-*See the [spec PDF](./RGIG%20-%20Reality%20Grade%20Intelligence%20Gauntlet%20-%20Benchmark%20Specification%20V1-4.pdf.pdf) for methodology.*
+*See the [spec PDF](./RGIG%20-%20Reality%20Grade%20Intelligence%20Gauntlet%20-%20Benchmark%20Specification%20V1-9.pdf) for methodology and rubrics.*
 
 ---
 
-## How to Use RGIG
+## How To Use RGIG
 
-1. **Download the field specs** (`fieldA.tex`, ..., `fieldE.tex`) and main spec.
-2. **Run your model or agent through each field's prompt chain (P1–P5),** one at a time.
-3. **Do NOT leak later prompts**—each answer should be fresh, not gamed by seeing ahead.
-4. **Fill in the YAML/JSON self-audit for each field.**
-5. **Share your results for peer review and arbitration.**
-6. **Post your system specs, software/hardware stack, and version numbers for reproducibility.**
+1. **Download** the spec (`main.tex` and `fieldA-E.tex`) or the PDF.
+2. **Run your system** through each field’s prompt chain (P1–P5/P6), one at a time.
+3. **No leaks, no peeking:** Each answer should be fresh—don’t allow later prompts to influence earlier responses.
+4. **Fill out self-audit** YAML/JSON per field.
+5. **Arrange peer review:** 3+ independent raters/arbitrators required for credible scores.
+6. **Document your system:** Share hardware, software, stack, and version info.
 
 ---
 
-## Why Peer Review Is Required
+### No Hosting, No Centralization
 
-No two model deployments are identical.  
-Hardware, OS, GPU, system build, agent logic, and even environmental randomness all impact results. **Peer review is non-optional for credible scoring.** The protocol is designed to minimize bias and surface real strengths (and failures) in any system.
+> **RGIG is fully decentralized.**
+> No central leaderboard, no required reporting, and no data ever leaves your system unless you choose.
+> All logs, artifacts, and results are managed and owned by *you* or your organization.
+> Fork, remix, and extend—no permissions needed.
+
+---
+
+## Why Peer Review Matters
+
+Every system, build, and hardware stack is unique.
+Peer review is built in to surface strengths and expose weaknesses—**no two RGIG runs are identical, and bias is minimized.**
+This is a *reality-grade* test, not a leaderboard stunt.
 
 ---
 
 ## License
 
-This repo is under the [Apache-2.0 License](./LICENSE) — free to use, modify, and fork.  
-**If you use RGIG or publish results, credit Robert Long and the RGIG team.**
+**Apache-2.0 License** (see [LICENSE](./LICENSE)) — free to use, modify, and fork.
+If you publish results or use RGIG, please credit Robert Long and the RGIG project.
 
 ---
 
 ## Contact & Links
 
-- **Author:** Robert Long [screwball7605@aol.com](mailto:screwball7605@aol.com)
-- **X (Twitter):** [@LookDeepSonSon](https://x.com/LookDeepSonSon)
-- **Facebook:** [SillyDaddy7605](https://facebook.com/SillyDaddy7605)
-- **GitHub:** [Bigrob7605](https://github.com/Bigrob7605/R-AGI_Certification_Payload)
+* **Author:** Robert Long [screwball7605@aol.com](mailto:screwball7605@aol.com)
+* **X (Twitter):** [@LookDeepSonSon](https://x.com/LookDeepSonSon)
+* **Facebook:** [SillyDaddy7605](https://facebook.com/SillyDaddy7605)
+* **GitHub:** [Bigrob7605/RGIG-V1.4-Reality-Grade-Intelligence-Gauntlet](https://github.com/Bigrob7605/RGIG-V1.4-Reality-Grade-Intelligence-Gauntlet)
 
 ---
 
-> **RGIG isn’t just another AI benchmark. It’s the gauntlet for real-world cognition. If your model can ace this, you’re ready for the next age of intelligence.**
+> **RGIG is the open-source gauntlet for reality-grade cognition.
+> If your model can ace this, it’s ready for the real world.**
+
+---
+
+Let me know if you want to adjust the tone, add a quickstart, or drop in more examples! This is fully V1.9 and “wrecking ball” ready.
