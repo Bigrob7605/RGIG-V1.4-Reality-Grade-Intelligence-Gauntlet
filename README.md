@@ -1,7 +1,3 @@
-Here’s a **tightened, clarified, and up-to-date README.md** for V1.9—matching your current PDF, license, and “blueprint, not SaaS” vision. I fixed minor issues, added a “No Hosting/No Centralization” highlight, and modernized a few sections:
-
----
-
 # RGIG – Reality Grade Intelligence Gauntlet
 
 **RGIG** is an open, next-generation intelligence benchmark that goes beyond pattern recall.
