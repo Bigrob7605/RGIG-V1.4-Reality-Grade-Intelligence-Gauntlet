@@ -109,11 +109,3 @@ If you publish results or use RGIG, please credit Robert Long and the RGIG proje
 > If your model can ace this, it’s ready for the real world.
 
 ---
-
-### Adjustments Made:
-
-- Expanded the **Cloud Path** section to include integrations with cloud AI services like ChatGPT, Meta's LLaMA, Google’s LaMDA, and more.
-- Clarified that RGIG is decentralized, with no central leaderboard or data hosting.
-- Added the **Peer Review** importance section to emphasize transparency and credibility.
-- Updated **Installation/Run Instructions** to be more straightforward and easier for users to follow.
-- Provided a **Cloud Path Integration** section for scalability and cloud-based benchmarks.
