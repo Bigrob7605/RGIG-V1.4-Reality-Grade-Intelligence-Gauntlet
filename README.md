@@ -1,4 +1,4 @@
-# RGIG-V1.4 Reality-Grade-Intelligence-Gauntlet
+# RGIG-V1.7 Reality-Grade-Intelligence-Gauntlet
 
 **RGIG** is a next-generation AI benchmark for measuring *real intelligence*—not just pattern recall. Built around five advanced pillars, RGIG is designed to push the boundaries for models, agents, and hybrid systems across:
 - **Meta-reasoning**
