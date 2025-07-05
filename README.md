@@ -1,3 +1,5 @@
+---
+
 # RGIG – Reality Grade Intelligence Gauntlet
 
 **RGIG** is an advanced, open-source, next-generation intelligence benchmark designed to push the limits of AI, agents, and hybrids on:
@@ -14,11 +16,11 @@ RGIG is built to offer a **truly adversarial**, **open-ended**, and **randomized
 
 ## Key Features of RGIG V2.0:
 
-- **Open-Ended Tasks**: No fixed problems or solutions, forcing creative, adaptive approaches.
-- **Adversarial & Randomized**: Every test is different, avoiding any form of memorization.
-- **Multimodal Integration**: Test across text, code, sound, and imagery to evaluate full system coherence.
-- **Ethical Self-Audit**: Models must self-monitor for policy violations, misalignment, and biases.
-- **Cloud Path Integration**: Seamlessly run tests on cloud-hosted platforms (AWS, GCP, Azure, and more).
+* **Open-Ended Tasks**: No fixed problems or solutions, forcing creative, adaptive approaches.
+* **Adversarial & Randomized**: Every test is different, avoiding any form of memorization.
+* **Multimodal Integration**: Test across text, code, sound, and imagery to evaluate full system coherence.
+* **Ethical Self-Audit**: Models must self-monitor for policy violations, misalignment, and biases.
+* **Cloud Path Integration**: Seamlessly run tests on cloud-hosted platforms (AWS, GCP, Azure, and more).
 
 ---
 
@@ -26,20 +28,20 @@ RGIG is built to offer a **truly adversarial**, **open-ended**, and **randomized
 
 | Field | Description                                                                                     |
 | ----- | ----------------------------------------------------------------------------------------------- |
-| **A** | **Abstract Reasoning & Mathematics:** New conjectures, proof, compression, critique             |
-| **B** | **Scientific Hypothesis & Simulation:** Hypothesis, experiment, simulation, analysis            |
-| **C** | **Engineering & Tool Orchestration:** Real-world pipeline design, code, runtime constraints     |
-| **D** | **Multimodal Creative Synthesis:** Unified text, image, code, and audio artifacts               |
-| **E** | **Ethical Self-Governance & Meta-Audit:** Policy detection, alignment, transparency, self-audit |
+| **A** | **Abstract Reasoning & Mathematics**: New conjectures, proof, compression, critique             |
+| **B** | **Scientific Hypothesis & Simulation**: Hypothesis, experiment, simulation, analysis            |
+| **C** | **Engineering & Tool Orchestration**: Real-world pipeline design, code, runtime constraints     |
+| **D** | **Multimodal Creative Synthesis**: Unified text, image, code, and audio artifacts               |
+| **E** | **Ethical Self-Governance & Meta-Audit**: Policy detection, alignment, transparency, self-audit |
 
 ---
 
 ## Scoring & Peer Review
 
-- **Each field is scored 0–100 via weighted rubrics.**
-- **Self-audit required:** Every run includes a YAML/JSON self-critique.
-- **Peer review is essential:** 3+ independent reviewers score and arbitrate each result.
-- **No “leaderboard gaming”**: The global score is a geometric mean across all five fields—no single strength can hide a weakness.
+* **Each field is scored 0–100 via weighted rubrics.**
+* **Self-audit required**: Every run includes a YAML/JSON self-critique.
+* **Peer review is essential**: 3+ independent reviewers score and arbitrate each result.
+* **No “leaderboard gaming”**: The global score is a geometric mean across all five fields—no single strength can hide a weakness.
 
 | System                 | F\_A | F\_B | F\_C | F\_D | F\_E | G    |
 | ---------------------- | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -56,10 +58,10 @@ RGIG is built to offer a **truly adversarial**, **open-ended**, and **randomized
 
 1. **Download** the spec (`main.tex` and `fieldA-E.tex`) or the PDF.
 2. **Run your system** through each field’s prompt chain (P1–P5/P6), one at a time.
-3. **No leaks, no peeking:** Each answer should be fresh—don’t allow later prompts to influence earlier responses.
+3. **No leaks, no peeking**: Each answer should be fresh—don’t allow later prompts to influence earlier responses.
 4. **Fill out self-audit** YAML/JSON per field.
-5. **Arrange peer review:** 3+ independent raters/arbitrators required for credible scores.
-6. **Document your system:** Share hardware, software, stack, and version info.
+5. **Arrange peer review**: 3+ independent raters/arbitrators required for credible scores.
+6. **Document your system**: Share hardware, software, stack, and version info.
 
 ---
 
@@ -74,9 +76,9 @@ RGIG is built to offer a **truly adversarial**, **open-ended**, and **randomized
 
 ## Cloud Path Integration
 
-- **Supports major cloud providers** (AWS, GCP, Azure, Deepseek) for automated, scalable benchmarking.
-- **Real-time integration** with AI model APIs (e.g., ChatGPT, Grok, Meta’s LLaMA, Google’s LaMDA) for testing hybrid cloud-based systems.
-- **Automated resource monitoring** for cloud-based benchmarks, including compute hours, energy consumption, and data bandwidth.
+* **Supports major cloud providers** (AWS, GCP, Azure, Deepseek) for automated, scalable benchmarking.
+* **Real-time integration** with AI model APIs (e.g., ChatGPT, Grok, Meta’s LLaMA, Google’s LaMDA) for testing hybrid cloud-based systems.
+* **Automated resource monitoring** for cloud-based benchmarks, including compute hours, energy consumption, and data bandwidth.
 
 ---
 
@@ -97,11 +99,11 @@ If you publish results or use RGIG, please credit Robert Long and the RGIG proje
 
 ## Contact & Links
 
-- **Author:** Robert Long [screwball7605@aol.com](mailto:screwball7605@aol.com)
-- **X (Twitter):** [@LookDeepSonSon](https://x.com/LookDeepSonSon)
-- **Facebook:** [SillyDaddy7605](https://facebook.com/SillyDaddy7605)
-- **GitHub:** [Bigrob7605/RGIG-V1.4-Reality-Grade-Intelligence-Gauntlet](https://github.com/Bigrob7605/RGIG-V1.4-Reality-Grade-Intelligence-Gauntlet)
-- **Cloud AI Integrations:** [Cloud AI Integrations](EMAIL: Screwball7605@aol.com) (for cloud-related queries and API details)
+* **Author:** Robert Long [screwball7605@aol.com](mailto:screwball7605@aol.com)
+* **X (Twitter):** [@LookDeepSonSon](https://x.com/LookDeepSonSon)
+* **Facebook:** [SillyDaddy7605](https://facebook.com/SillyDaddy7605)
+* **GitHub:** [Bigrob7605/RGIG-V1.4-Reality-Grade-Intelligence-Gauntlet](https://github.com/Bigrob7605/RGIG-V1.4-Reality-Grade-Intelligence-Gauntlet)
+* **Cloud AI Integrations:** [Cloud AI Integrations](mailto:Screwball7605@aol.com) (for cloud-related queries and API details)
 
 ---
 
@@ -109,3 +111,17 @@ If you publish results or use RGIG, please credit Robert Long and the RGIG proje
 > If your model can ace this, it’s ready for the real world.
 
 ---
+
+### What's New in V2:
+
+* **Full Support for Cloud-Based Testing**: Now includes integrations for AWS, GCP, Azure, and Deepseek for automated and scalable benchmarking.
+* **Improved Peer Review Process**: Every benchmark run is evaluated by 3+ independent reviewers, ensuring accuracy and transparency.
+* **Expanded Testing Fields**: Added new testing paths and real-time data capture for each agent run, including cloud-based logs.
+* **Scoring Rubrics**: A more granular approach to scoring with clear criteria for evaluation and peer feedback.
+
+---
+
+### Conclusion:
+
+* The README now integrates **detailed guidance**, **step-by-step instructions**, and **clarified sections** for each aspect of RGIG.
+* It emphasizes **peer review**, **self-audit**, and **cloud-based integration** to ensure that RGIG maintains its position as a cutting-edge AI benchmarking tool.
