@@ -101,7 +101,7 @@ If you publish results or use RGIG, please credit Robert Long and the RGIG proje
 - **X (Twitter):** [@LookDeepSonSon](https://x.com/LookDeepSonSon)
 - **Facebook:** [SillyDaddy7605](https://facebook.com/SillyDaddy7605)
 - **GitHub:** [Bigrob7605/RGIG-V1.4-Reality-Grade-Intelligence-Gauntlet](https://github.com/Bigrob7605/RGIG-V1.4-Reality-Grade-Intelligence-Gauntlet)
-- **Cloud AI Integrations:** [Cloud AI Integrations](https://cloud.ai.integrations.com) (for cloud-related queries and API details)
+- **Cloud AI Integrations:** [Cloud AI Integrations](EMAIL: Screwball7605@aol.com) (for cloud-related queries and API details)
 
 ---
 
